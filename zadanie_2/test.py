@@ -70,7 +70,7 @@ def to_postfix(expr):
                 expr.pop(start+1)
                 break
 
-    return expr
+    return expr[0]
 
 # print(eval_expr("1 x +",{"x":2}))
 # print(eval_expr("x x +",{"x":2}))
